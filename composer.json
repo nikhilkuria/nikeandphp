@@ -1,0 +1,14 @@
+{
+    "name": "nikhilkuria/nikeandphp",
+    "description": "A PHP library used to work with Nike+ API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nikhilkuria",
+            "email": "nikhilkuria@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.22"
+    }
+}
