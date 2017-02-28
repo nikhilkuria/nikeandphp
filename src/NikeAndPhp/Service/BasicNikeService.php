@@ -24,7 +24,8 @@ namespace NikeAndPhp\Service {
     class BasicNikeService extends BasicService implements NikeService
     {
         private $accessToken;
-
+        private $expires_in;
+        private $loginTime;
         /**
          * @param $userName
          * @param $passWord
@@ -44,6 +45,8 @@ namespace NikeAndPhp\Service {
             $response = $mediator->call($params);
             $responseDecoded = json_decode($response,true);
             $this->accessToken = $responseDecoded["access_token"];
+            $this->expires_in = $responseDecoded["expires_in"];
+            $this->loginTime = microtime();
             return $this->accessToken;
         }
 
