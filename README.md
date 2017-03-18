@@ -1,6 +1,8 @@
 # nikeandphp
 
 [![Build Status](https://travis-ci.org/nikhilkuria/nikeandphp.svg?branch=master)](https://travis-ci.org/nikhilkuria/nikeandphp)  [![Latest Stable Version](https://poser.pugx.org/nikhilkuria/nikeandphp/v/stable)](https://packagist.org/packages/nikhilkuria/nikeandphp)
+
+
 nikeandphp is a php package used to retrive information from the Nike+ APIs. 
 The library is hosted under Packagist
 https://packagist.org/packages/nikhilkuria/nikeandphp
